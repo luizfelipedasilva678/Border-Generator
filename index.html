@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Border Generator</title>
+</head>
+<body>
+    <div class='container'>
+        <header class='header'>
+            <h1 class="title">Border Generator</h1>
+        </header>
+
+        <main class='main'>
+            <section class="content">
+                <form class="values" action="#">
+                    <div>
+                        <label for="top-left">Top Left:</label>
+                        <input type="range" name="top-left" id="top-left">
+                    </div>
+
+                    <div>
+                        <label for="top-right">Top Right:</label>
+                        <input type="range" name="top-right" id="top-right">
+                    </div>
+
+                    <div>
+                        <label for="bottom-left">Bottom Left:</label>
+                        <input type="range" name="bottom-left" id="bottom-left">
+                    </div>
+
+                    <div>
+                        <label for="bottom-right">Bottom Right:</label>
+                        <input type="range" name="bottom-right" id="bottom-right">
+                    </div>
+
+                    <div>
+                        <label for="border-width">Border width:</label>
+                        <input type="range" name="border-width" id="border-width">
+                    </div>
+
+                    <div>
+                        <label for="borders-styles">Border Style:</label>
+                        <select name="borders-styles" id="borders-styles" >
+                            <option value="dotted">Dotted</option>
+                            <option value="double">Double</option>
+                            <option value="groove">Groove</option>
+                            <option value="inset">Inset</option>
+                            <option value="hiden">Hiden</option>
+                            <option value="none">None</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="border-color">Border Color</label>
+                        <input type="color" name="border-color" id="border-color">
+                    </div>
+                </form>
+            </section>
+
+            <section class="content-2">
+                <div class="background">
+                    <p> 
+                        border-radius: <span class="border-values">10</span>px <span class="border-values">10</span>px <span class="border-values">10</span>px <span class="border-values">10</span>px;
+                        -moz-border-radius: <span class="border-values">10</span>px <span class="border-values">10</span>px <span class="border-values">10</span>px <span class="border-values">10</span>px;
+                        -webkit-border-radius: <span class="border-values">10</span>px <span class="border-values">10</span>px <span class="border-values">10</span>px <span class="border-values">10</span>px;
+                    </p>    
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p class="footer-text"><strong>CopyRight</strong>@2020. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
