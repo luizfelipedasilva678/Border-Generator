@@ -41,6 +41,8 @@ html,body{
 }
 
 .content-2{
+    border-width: 20px;
+    border-style: dotted;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,11 +53,10 @@ html,body{
 }
 
 .background{
-    overflow-y: scroll;
     width: 30vw;
-    height: 20vh;
+    height: 15vh;
     background-color: white;
-
+    text-align: center;
 }
 
 .footer{ 
